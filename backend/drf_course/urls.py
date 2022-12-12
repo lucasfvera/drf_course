@@ -16,14 +16,22 @@ Including another URLconf
 from django.urls import path
 from django.contrib import admin
 from core import views as core_views
+from ecommerce import views as ecommerce_views
 from rest_framework import routers
 from rest_framework.authtoken.views import obtain_auth_token
 
 
 router = routers.DefaultRouter()
 
+# This pattern to add urls is to work with ViewSets
+# We register the view set and each one of those come with a set of endpoints
+# already built-in
+router.register(r"item", ecommerce_views.ItemViewSet, basename="item")
+router.register(r"order", ecommerce_views.OrderViewSet, basename="order")
+
 urlpatterns = router.urls
 
+# This pattern to add urls is to work with API views classes
 urlpatterns += [
     path("admin/", admin.site.urls),
     path("contact/", core_views.ContactAPIView.as_view()),
