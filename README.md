@@ -1,4 +1,12 @@
 # Django Rest Framework (DRF) Course
+This course was extracted from [freeCodeCamp.org](https://www.freecodecamp.org) (from the [Youtube Channel](https://www.youtube.com/@freecodecamp)).
+ref: https://www.youtube.com/watch?v=tujhGdn1EMI
+
+This is not my content. I just followed the course.\
+Thanks to Bobby Stearman. Check out [@DidCoding](https://www.youtube.com/channel/UCitbHjDxcR3JBErnRLCuYkw)
+
+---
+
 Welcome to this full Django Rest Framework (DRF)course. 
 This course is perfect if you are looking to learn DRF and build your own API application.
 ***
@@ -10,10 +18,10 @@ This course is perfect if you are looking to learn DRF and build your own API ap
 ## Considerations
 I have added optional docker containers to simplify the build. If you want to use the docker build you should install Docker and Docker Compose on your local machine.
 
-We will be calling our API throughout the next 8 modules. I have written the requests in (Curl)[https://curl.se/] and (Httpie)[https://httpie.io/]. 
+We will be calling our API throughout the next 8 modules. I have written the requests in [Curl](https://curl.se/) and [Httpie](https://httpie.io/). 
 
-(Httpie)[https://httpie.io/] provides a clean terminal output which is handy for this type of project. You will need to install it locally if you want to use the commands.
->Note: (Httpie)[https://httpie.io/] is pre-installed in the docker container.
+[Httpie](https://httpie.io/) provides a clean terminal output which is handy for this type of project. You will need to install it locally if you want to use the commands.
+>Note: [Httpie](https://httpie.io/) is pre-installed in the docker container.
 ***
 ***
 
@@ -42,7 +50,7 @@ git clone --branch module_1 https://github.com/bobby-didcoding/drf_course.git .
 ***
 
 ## Following along
-Each module has a walk through video. All videos can be found in my (Django Rest Framework Course)[https://www.youtube.com/playlist?list=PL5VlxT4gkOFAD2wpucxHY3X2sCzhha5Kz] playlist.
+Each module has a walk through video. All videos can be found in my [Django Rest Framework Course](https://www.youtube.com/playlist?list=PL5VlxT4gkOFAD2wpucxHY3X2sCzhha5Kz) playlist.
 
 Please open /steps/module_1 to begin.
 ***
